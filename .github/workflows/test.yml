@@ -20,8 +20,7 @@ jobs:
       - uses: actions/checkout@v1
       - uses: ./
         with:
-          url: ${{ secrets.WECHAT_WORK_WEBHOOK_URL }}
-          type: markdown
+          url: ${{ secrets.FEISHU_BOT_ACTION_BUILD_NOTIFICATION }}
           content: |
             ## action test
             > from github action test
